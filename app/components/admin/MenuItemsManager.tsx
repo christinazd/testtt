@@ -308,7 +308,7 @@ export default function MenuItemsManager() {
                 </label>
                 <textarea
                   id="description"
-                  value={formData.description}
+                  value={formData.description || ''}
                   onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                   rows={3}
                   className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:ring-2 focus:ring-amber-600 focus:border-transparent outline-none resize-none"
