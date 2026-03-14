@@ -45,6 +45,11 @@ export default function Footer() {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link href="/login" className="hover:text-amber-400 transition-colors text-amber-400">
+                  Admin Login
+                </Link>
+              </li>
             </ul>
           </div>
 
